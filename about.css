@@ -1,0 +1,734 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+/* font-family: 'EB Garamond', serif; 
+font-family: 'Roboto', sans-serif; */
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.home2{
+    background-color: #000000;
+    color: #fff;
+}
+.logo{
+    margin-left: 100px;
+}
+.logo h1{
+    color: #aa9166;
+    font-size: 60px;
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-weight: 700;
+    padding-top: 10px;
+    cursor: pointer;
+    
+}
+.logo a{
+    text-decoration: none;
+}
+.nav-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: right;
+    margin-right: 120px;
+    
+}
+
+.nav-1 .time-num-nav {
+  display: flex;
+  height: 80px;
+  
+}
+
+.nav-1  .time-nav{
+ margin-left: -400px;
+ margin-right: 40px;
+ border-right: 1px solid rgba(255, 255, 255, 0.295);
+ border-left: 1px solid rgba(255, 255, 255, 0.295);
+ padding-right: 20px;
+ padding-left: 20px;
+ margin-top: -17px;
+ height: 80px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ margin-bottom: 10px;
+}
+
+.nav-1  .time-nav h2{
+     font-size: 28px;
+     text-align: center;
+}
+.nav-1  .time-nav p{
+     font-size: 14px;
+     margin-top: -5px;
+     text-align: center;
+}
+
+.nav-1 .num-nav{
+    border-right: 1px solid rgba(255, 255, 255, 0.295);
+    padding-right: 20px;
+    margin-top: -17px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.nav-1 .num-nav h2{
+    font-size: 28px;
+    text-align: center;
+}
+
+.nav-1 .num-nav p{
+    font-size: 14px;
+    margin-top: -5px;
+    text-align: center;
+}
+.nav-1 ul{
+    list-style: none;
+    display: flex;
+    margin-top: -50px;
+  
+}
+.nav-1 ul i {
+    color: #fff;
+    font-size: 23px;
+    border-right: 1px solid rgba(255, 255, 255, 0.295);
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: -17px;
+    height: 100%;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.nav-1 ul a{
+    text-decoration: none;
+}
+.nav-1 ul i:hover{
+    background-color: #fff;
+    color :#aa9166; ;
+}
+
+/*----------------------------------------------- */
+.nav-2{
+    display: flex;
+    background-color: #121518;
+    height: 80px;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 999;
+    position: absolute;
+}
+
+.nav-2 ul{
+    display: flex;
+    margin-left: 100px;
+    position: relative;
+}
+.nav-2 ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.nav-2 ul a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 25px;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 17px;
+}
+.nav-2 ul a:hover{
+    color: #aa9166;
+    transition: 0.1s;
+}
+
+.nav-2 #pages::after{
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent
+}
+.list-pages{
+     display: none;
+     transition: 0.1s;
+}
+.list-pages ul li a{
+    color: #212529;
+    font-weight: 400;
+    margin-left: -70px;
+    margin-top: 19px;
+    font-size: 17px;
+   
+}
+.nav-2 ul li:hover .list-pages{
+     display:inline-block;
+     position: absolute;
+     background-color: #fff;
+     margin-top: 130px;
+     width: 165px;
+     height: 72px;
+     display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: -43px;
+   transition: 0.1s;
+    
+}
+.nav-2 ul li:hover .list-pages ul{
+    display: inline-block;
+    height: 100px;
+    transition: 0.1s;
+    
+}
+.nav-2 ul li:hover .list-pages ul a{
+    color: #212529;
+}
+
+.nav-2 .list ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.nav-2 .list ul a{
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+
+
+.get-app{
+  margin-left: 390px;
+
+}
+.get-app input{
+   background-color: #121518;
+   border: 2px solid #aa9166;
+   color: #fff;
+   padding: 9px 14px 9px 14px;
+   font-size: 17px;
+   font-family: 'Roboto', sans-serif; 
+   font-weight: 500;
+   margin-top: 8px;
+
+}
+.get-app input:hover{
+    background-color: #aa9166;
+}
+
+/* -------------------------------------------------- */
+.big-word{  
+    background-color: #aa9166;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.big-word div{
+    margin-top: 150px;
+}
+.big-word div h1{
+    font-size: 65px;
+    font-style: italic;
+    color: #121518;
+    font-family: 'EB Garamond', serif;
+}
+.big-word div h1 span{
+    border-bottom: #121518 2px solid;
+} 
+.big-word div h3 a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 23px;
+    color: #212529;
+    font-weight: 200;
+    margin-right: 5px;
+    margin-left: 5px;
+    transition: 0.2s;
+}
+
+.big-word div h3 a:hover{
+    color: #fff;
+    transition: 0.2s;
+}
+/* -------------------------------------------------- */
+
+.learn-about-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.learn-about-us img{
+    width: 28vw;
+    border: black 9px solid;
+}
+
+.word-about-us{
+    position: relative;
+    margin-left: 50px;
+}
+.word-about-us h2{
+    font-style: italic;
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+.word-about-us h2::before{
+
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 7px;
+    left: 0;
+    top: 21px;
+    background: transparent;
+    border-top: 1px solid #aa9166;
+    border-bottom: 1px solid #aa9166;
+    z-index: -1;
+}
+.word-about-us h2::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 7px;
+    left: 0;
+    bottom: 20px;
+    background: transparent;
+    border-top: 1px solid #aa9166;
+    border-bottom: 1px solid #aa9166;
+    z-index: -1;
+}
+
+.word-about-us p{
+    color: #666666;
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.word-about-us input{
+    width: 180px;
+     height: 50px;
+    color: #aa9166;
+    background-color: #121518;
+    border: #aa9166 3.5px solid;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.5px;
+}
+    .word-about-us input:hover{
+    color: #121518;
+    background-color: #aa9166;
+}
+/* ------------------------------------------------------------------------ */
+
+
+/* --------------------------START ABOUT US----------------------------------- */
+.Learn-About-Our-Journey{
+    margin-top: 90px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.all-boxs{
+    margin-top: 90px;
+
+    
+}
+
+.lines{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+}
+
+.lines .word-box{
+   background-color: #121518;
+   width: 50%;
+   border-right: #aa9166 8px solid;
+   border-left: #aa9166 8lopx solid;
+   
+}
+.lines .word-box .num{
+    display: flex;
+    margin: 33px;
+}
+.lines .word-box .num span{
+    color: #121518;
+    background-color: #aa9166;
+    font-family: 'Roboto', sans-serif;
+    padding: 4px 5px 4px 5px;
+    font-size: 27px;
+    font-weight: bold;    
+}
+
+.lines .word-box .num h3{
+    color: #aa9166;
+    font-style: italic;
+    margin-left: 15px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lines .word-box .words{
+    margin-top: -13px;
+    margin-left: 33px;
+    margin-bottom: 25px;
+    margin-right: 30px;
+    
+}
+.lines .word-box .words p{
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.lines .emty-box{ 
+    width: 50%;
+    height: 100%;
+}
+
+/*----------------------------------------------- */
+.meet-our{
+    margin: 100px 200px 0px 200px;
+}
+.meet-our h2{
+    font-style: italic;
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+.meet-our h2::before{
+
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 7px;
+    left: 0;
+    top: 21px;
+    background: transparent;
+    border-top: 1px solid #aa9166;
+    border-bottom: 1px solid #aa9166;
+    z-index: -1;
+}
+.meet-our h2::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 7px;
+    left: 0;
+    bottom: 20px;
+    background: transparent;
+    border-top: 1px solid #aa9166;
+    border-bottom: 1px solid #aa9166;
+    z-index: -1;
+}
+.cards-meet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-meet{
+    margin-right: 20px;
+    position: relative;
+}
+.photo-meet{
+    position: absolute;
+    
+}
+.photo-meet img{
+  width: 17vw;
+   
+}
+.net-meet{
+margin-top: 280px;
+
+}
+
+.net-meet ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #aa9166;
+    width: 180px;
+    padding: 13px 40px 13px 40px;
+    margin-left: 40px;
+    transition: 0.5s;
+}
+.card-meet:hover .net-meet ul{
+width: 262px;
+margin-left: -0.5px;
+transition: 0.5s;
+}
+
+.net-meet ul li {
+    list-style: none;
+    
+ 
+}
+.net-meet ul li i {
+    color: black;
+    margin-right: 15px;
+    font-size: 19px;
+    
+}
+
+.word-meet{
+    background-color: #121518;
+    height: 155px;
+    width: 262px;
+    padding-top: 70px;
+}
+.word-meet h3{
+    font-style: italic;
+    font-family: 'EB Garamond', serif;
+    color: #aa9166;
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.word-meet p{
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 7px;
+    font-size: 16px;
+}
+
+/* --------------------------------------- */
+.Subscribe{
+    background-color: #aa9166;
+    position: relative;
+    position: absolute;
+    z-index: 1;
+    width: 900px;
+    height: 190px;
+    margin-top: 100px;
+    margin-left: 320px;
+    text-align: center;
+    padding: 20px 30px 20px 30px;
+}
+.Subscribe h2{
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+.Subscribe h2::before{
+
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 7px;
+    left: 0;
+    top: 21px;
+    background: transparent;
+    border-top: 1.5px solid rgba(255, 255, 255, 0.699);
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.699);
+    z-index: -1;
+}
+.Subscribe h2::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 7px;
+    left: 0;
+    bottom: 20px;
+    background: transparent;
+    border-top: 1.5px solid rgba(255, 255, 255, 0.699);
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.699);
+    z-index: -1;
+}
+.inter-Subscrbe .email{
+    border: 2px solid black;
+    height: 50px;
+    padding-left: 15px;
+    width: 370px;
+}
+.inter-Subscrbe .submit{
+    color: #aa9166;
+    background-color: #121518;
+    border: 2px solid #aa9166;
+    padding: 10px 20px 10px 20px;
+    margin-left: -97px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.5s;
+}
+.inter-Subscrbe .submit:hover{
+    background-color: #aa9166;
+    color: #121518;
+    transition: 0.5s;
+}
+/* -------------------------------------------------------------------------- */
+.floter{
+    background-color: #121518;
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 200px 100px 200px 100px ;
+    padding-bottom: 30px;
+}
+.word-floter{
+    display: flex;
+}
+.word-floter h2{
+    color: #aa9166;
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-size: 26px;
+}
+.about-us {
+    width: 320px;
+}
+.about-us p{
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 0.3px ;
+    font-size: 17px;
+    margin-top: 30px;
+    line-height: 20px;
+}
+.Services-Areas{
+   margin-left: 50px;
+   margin-right: 40px;
+}
+.Services-Areas ul{
+margin-top: 27px;
+}
+.Services-Areas ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.Services-Areas ul li a{
+   text-decoration: none;
+   color: #999999;
+   font-family: 'Roboto', sans-serif;
+   font-size: 17px;
+   transition: 0.2s;
+} 
+.Services-Areas ul li a i{
+    margin-right: 12px;
+}
+.Services-Areas ul li a:hover{
+    color: #aa9166;
+    font-size: 18px;
+    transition: 0.2s;
+}
+.Services-Areas ul li a:hover i{
+    color: #aa9166;
+    transition: 0.2s;
+}
+.Get-In-Touch{
+    margin-left: 50px;
+    margin-right: 40px;
+}
+.Get-In-Touch ul{
+    margin-top: 27px;
+}
+.Get-In-Touch ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.Get-In-Touch ul li a{
+    text-decoration: none;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    transition: 0.2s;
+}
+
+.Get-In-Touch ul li a i{
+    margin-right: 12px;
+}
+.web{
+    display: flex;
+   
+}
+.web i{
+    color: #aa9166;
+    transition: 0.2s;
+}
+
+.web i:hover{
+    color: #999999;
+    transition: 0.2s;
+}
+.terms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    margin-top: 60px;
+}
+.terms ul{
+    display: flex;
+}
+.terms ul li{
+    list-style: none;
+}
+.terms ul li a{
+    color: #999999;
+    margin-right: 20px;
+    border-right: 1px solid rgba(255, 255, 255, .3);
+    padding-right: 20px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+   
+}
+
+.terms ul li a:hover{
+color: #aa9166;
+}
+.by{
+    text-align: right;
+    margin-top: 40px;
+}
+.by p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-weight: 400;
+}
+.by p span{
+    color: #aa9166;
+    margin-left: 7px;
+    font-size: 17px;
+}
